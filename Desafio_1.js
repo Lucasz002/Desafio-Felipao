@@ -1,8 +1,6 @@
-// Variable to store a hero's name and amount of experience (XP)
 let nome = "Raze";
-let XP = 8352;
+let XP = 8752;
 
-// Decision structure to display one of the messages below
 let level;
 if (XP < 1000) {
     level = "Ferro";
@@ -21,6 +19,4 @@ if (XP < 1000) {
 } else {
     level = "Radiante";
 }
-
-// Exit message
 console.log("O herói de nome " + nome + " está no nível de " + level);
